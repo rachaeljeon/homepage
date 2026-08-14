@@ -1,72 +1,84 @@
 body {
-    margin: 0;
-    text-align: center;
-    height: 80%;
+  margin: 0;
+  text-align: center;
+  height: 80%;
 }
 
 #main {
-    background-image: url("images/purple.jpg");
-    background-size: cover;
-    margin: auto;
+  background-image: url("images/purple.jpg");
+  background-size: cover;
+  margin: auto;
 }
 
 #welcome {
-    color: #cbb0c2;
-    font-size: 100px;
-    font-family: Juliett;
-    text-shadow: 2px 2px 40px brown;
-    padding: 70px 30px 0px 30px;
-    
+  color: #cbb0c2;
+  font-size: 100px;
+  font-family: Juliett;
+  text-shadow: 2px 2px 40px brown;
+  padding: 70px 30px 0px 30px;
 }
 
 .info {
-    color: #cbb0c2; 
-    font-family: "Noto Sans", sans-serif;
-
-    display: flex;
+  color: #cbb0c2;
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
 }
 
 .info-box {
-    margin-left: 80px;
-    border: 5px solid #bc875d;
-    background-color: #35221f;
-    padding: 60px 200px;
-    background: linear-gradient(#79534e, #35221f);
+
+  margin: 0 20px;
+
+  border: 5px solid #bc875d;
+  background-color: #35221f;
+  border-radius: 10px;
+  padding: 60px 200px;
+  background: linear-gradient(#79534e, #35221f);
 }
 
+.nature {
+    margin: 0 20px;
+    width: 1000px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/rock.jpg");
+    background-size: cover;
+}
+
+.nature:hover {
+    background-image: url("images/night.avif");
+}
 #box-name {
-    color: #8581af;
-    text-shadow: 2px 2px black;
+  color: #8581af;
+  text-shadow: 2px 2px black;
 }
 
 #box-job {
-    color: #bc875d;
-    text-shadow: 2px 2px 10px #887a97;
+  color: #bc875d;
+  text-shadow: 2px 2px 10px #887a97;
 }
 
 #box-location {
-    text-shadow: 2px 2px 30px #7c697b;
+  text-shadow: 2px 2px 30px #7c697b;
 }
 
 .btn {
-    font-weight: bold;
-    font-size: larger;
-    font-family: Juliett;
-    color: #8581af;
+  font-weight: bold;
+  font-size: larger;
+  font-family: Juliett;
+  color: #8581af;
 
-
-    padding: 20px 30px;
-    border-color: white;
-    border-radius: 20px;
-    margin: 100px 30px;
+  padding: 20px 30px;
+  border-color: white;
+  border-radius: 20px;
+  margin: 100px 30px;
 }
 
 #terms {
-    color: #cbb0c2;
+  color: #cbb0c2;
 }
 
 /*-------------------------------------------------------------------------*/
-
 
 @font-face {
   font-family: Juliett;
@@ -75,11 +87,12 @@ body {
 
 /* span */
 .me {
-    border-bottom: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
-giphy { /* TODO */
-    background-image: url("images/giphy.gif");
-    background-size: cover;
-    padding: 100px 0 40px 0;
+giphy {
+  /* TODO */
+  background-image: url("images/giphy.gif");
+  background-size: cover;
+  padding: 100px 0 40px 0;
 }
